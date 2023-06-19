@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pXBRseSdpAWZwThPx_A3t27i-J438gvLoQ&usqp=CAU">
+
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/phone.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="./assets/css/main header.css"> -->
+</head>
+</head>
+<body>
+    <div class="app">
+        <header class="header header2"> 
+            <div class="grid wide grid__header">
+                <nav class="header__nav c-12">
+                    <a href="index.html" class="nav__element HHphone-mobile">
+                       <span class="nav__name-shop HHphone-mobile-tt">HHphone</span>
+                    </a>
+                    <a href="" class="nav__element nav__element1 hide-on-mobile-tablet hide-on-mobile">
+                        <!-- <i class="nav__icon ri-menu-fold-line"></i> -->
+                        <i class="nav__icon fa-solid fa-bars"></i>
+                        <span class="span__danhmuc">Danh mục</span>
+                    </a>
+                    <a href="" class="nav__element nav__element1 xgt-mobile-tablet">
+                        <i class="nav__icon fa-sharp fa-solid fa-location-dot"></i>
+                        <div class="nav__location">
+                            <div class="xem-gia">
+                                Xem giá tại
+                                <!-- <i class="icon__xemgia fa-sharp fa-solid fa-chevron-down"></i> -->
+                                <!-- <i class="icon__xemgia fa-regular fa-location-dot"></i> -->
+                            </div>
+                            <div class="dia-diem">
+                                Đà Nẵng
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__search">
+                        <form>
+                            <div class="search">
+                                <i class="search__icon fa-solid fa-magnifying-glass"></i>
+                                <input type="text" name="" id="" class ="search__input" placeholder="Bạn cần tìm gì ?">
+                            </div>
+                        </form>
+                    </div>
+                    <a href="" class="nav__element nav__element1 hide-on-mobile-tablet hide-on-mobile">
+                        <i class="nav__icon fa-solid fa-phone"></i>
+                        <div class="nav__location">
+                            <div class="xem-gia">
+                                Gọi mua hàng
+                              
+                            </div>
+                            <div class="sdt">
+                                1800 1234
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="nav__element nav__element1 hide-on-mobile">
+                        <i class="nav__icon fa-sharp fa-solid fa-location-dot"></i>
+                        <div class="nav__location">
+                            <div class="xem-gia">
+                                Cửa hàng
+                            </div>
+                            <div class="sdt">
+                                gần bạn
+                            </div>
+                        </div>
+                    </a>
+                    <a href="tracuudonhang.html" class="nav__element nav__element-tb nav__element1 hide-on-mobile-tablet hide-on-mobile>
+                        <!-- <i class="nav__icon ri-archive-line"></i>
+                        <i class="nav__icon fa-sharp fa-solid fa-address-card"></i>
+                        <div class="nav__location">
+                            <div class="xem-gia">
+                                Tra cứu <br> đơn hàng
+                            </div>
+                            <div class="navbar__item-on"> 
+                                <div class="navbar__item-on-top">
+                                    <img src="./assets/image/thongbao.png" alt="" class="navbar__item-on-img">
+                                    <p class="navbar__item-on-text">Đăng nhập để Tra cứu đơn hàng</p>
+                                </div>
+                                <div class="navbar__item-on-bottom">
+                                    <ul class="navbar_dndk">
+                                        <div class="navbar_dndk-div">
+                                            <li class="navbar_dndk__dn">Đăng Nhập</li>
+                                        </div>
+                                        <div class="navbar_dndk-div">
+                                            <li class="navbar_dndk__dn">Đăng Ký</li>
+                                        </div>
+                                    </ul>                      
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="cart.html" class="nav__element nav__element1">
+                        <i class="nav__icon fa-sharp fa-solid fa-cart-shopping"></i>
+                        <div class="nav__location">
+
+                            <div class="xem-gia">
+                                Giỏ
+                            </div>
+                            <div class="sdt">
+                                hàng
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="login.html" class="nav__element nav__element2 hide-on-mobile">
+                        <i class="nav__icon2 fa-regular fa-user"></i>
+                        <div class="nav__location">
+                            <div class="xem-gia">
+                                Tài khoản
+                            </div>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="main">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2 c-1 m-2" style="margin-top: 100px;">
+                        <div class="column-2-top">
+                            <div class="top-ava" style="background-image: url(data:image/png;base64,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);"></div>
+                            <div class="top-in4 hide-on-tablet">
+                                <span class="nickname">Admin</span>
+                                <div class="edit-in4">                            
+                                    <svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" style="margin-right: 4px;"><path d="M8.54 0L6.987 1.56l3.46 3.48L12 3.48M0 8.52l.073 3.428L3.46 12l6.21-6.18-3.46-3.48" fill="#9B9B9B" fill-rule="evenodd"></path></svg>
+                                    <span class="edit-in4-span">
+                                        Rewrite
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-2-mid hide-on-mobile">
+                            <nav class="category">
+                                <ul class="category-list">
+                                    <li class="category-item category-item-active">
+                                        <a href="index.html" class="category-item__link">
+                                            <i class="category-icon ri-home-3-line"></i>
+                                            <span class="category-span">Trang chủ</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="cart.html" class="category-item__link">
+                                            <i class="category-icon ri-shopping-cart-line"></i>
+                                            <span class="category-span">Giỏ hàng</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">
+                                            <i class="category-icon ri-archive-line"></i>
+                                            <span class="category-span">Đơn đặt hàng</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="chat.html" class="category-item__link">
+                                            <i class="category-icon ri-mail-unread-line"></i>
+                                            <span class="category-span">Tin nhắn</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#" class="category-item__link">
+                                            <i class="category-icon ri-notification-3-line"></i>
+                                            <span class="category-span"Thông báo</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col l-10 c-11 m-10" style="width: 100%;">
+                        <div class="margin-header">                            
+                            <div class="column10_pp">
+                                <div class="col10_header">
+                                    <div class="col10_header-element">
+                                        <button class="col10_header-title active">
+                                            Tất cả
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element hide-on-mobile hide-on-tablet">
+                                        <button class="col10_header-title">
+                                            Chờ thanh toán
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element">
+                                        <button class="col10_header-title">
+                                            Ship
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element">
+                                        <button class="col10_header-title">
+                                          Đang giao
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element hide-on-mobile">
+                                        <button class="col10_header-title">
+                                            Hoàn thành
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element">
+                                        <button class="col10_header-title">
+                                            Đã hủy
+                                        </button>
+                                    </div>
+                                    <div class="col10_header-element">
+                                        <button class="col10_header-title">
+                                            Hoàn hàng
+                                        </button>
+                                    </div>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="col10_pp_main active" style="width: 100%;">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">HHPhone</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Đơn đặt hàng của bạn đang trên đường đến với bạn
+                                                    </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Đang giao</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Máy lọc không khí
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-mi-air-purifier-4-lite.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Máy lọc không khí
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/r/o/robot-hut-bui-xiaomi-vacuum-mop-2-lite.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Robot hút bụi
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/m/a/may-loc-khong-khi-xiaomi-air-purifier-4-compact_1.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Máy lọc không khí
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/r/o/robot-hut-bui-ecovacs-deebot-t10-omni_1.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                               Robot T10 Omni
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/r/o/robot-hut-bui-ecovacs-deebot-t10-omni_1.png);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Robot Mop 2 Lite
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Loại hàng: Đồ dùng cho nhà thông minh
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Số lượng: x1 
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                   Thành tiền
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">Vui lòng chỉ nhấn "Đã nhận hàng" khi đơn hàng đã được giao cho bạn và sản phẩm nhận được không có vấn đề gì.</span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                       Đã nhận hàng
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                      Hoàn tiền
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                 Liên hệ người bán
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">HH - The pet </span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">The pet store</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">PET STORE - The pet store</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">PET STORE - The pet store</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">PET STORE - The pet store</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col10_pp_main">
+                                    <div class="col10_main">
+                                        <div class="col10_main-header-head">
+                                            <div class="main-head-right">
+                                                <span class="main-head-right-span">PET STORE - The pet store</span>
+                                            </div>
+                                            <div class="main-head-left">
+                                                <div class="main-head-left-1">
+                                                    <i class="head-icon fa-sharp fa-solid fa-cart-plus"></i>
+                                                    <span class="head-left-1-span">Your order is on its way to you </span>
+                                                </div>
+                                                <div class="main-head-left-2">
+                                                        <span class="head-left-2-span">Delivering  <!--Đang giao--></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main-center">
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/7ff318a7a8cbcccd99c7e8af16b7e481);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Real wooden stand for parrot bird training 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/c49eb4916c41e87bd19bb9863f1a1013);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Built-in bird bath hanging toys parrot bird cages 
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : ACCESSORIES   <!--Loại hàng: Phụ kiện-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x3       <!--Số lượng: x3 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/19292cbbfa53421f7abae7bcb3711900);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Set 3 rope ladder toys hanging cages parrot/squirrel/hamster                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-n0h36ugzchnvaf);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Funny Toy Swing for Hamsters                                                    </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : TOYS   <!--Loại hàng: đồ chơi-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫220.500</span>
+                                                </div>
+                                            </div>
+                                            <div class="col10_main-center-element">
+                                                <div class="col10_main-center-element-right">
+                                                    <div class="main-right-ava" style="background-image: url(https://i.pinimg.com/564x/ea/aa/26/eaaa2672b896b6d7405e757b878ada03.jpg);"></div>
+                                                    <div class="main-right-element-in4">
+                                                        <div class="main-right-element-name">
+                                                            <span class="main-right-element-name-span">
+                                                                Kakariki parrot  
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Row Classification : PARROT   <!--Loại hàng: vẹt-->
+                                                            </span>
+                                                        </div>
+                                                        <div class="main-right-element-type">
+                                                            <span class="main-right-element-type-sapn">
+                                                                Quantity : x1       <!--Số lượng: x1 -->
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col10_main-center-element-left">
+                                                    <span class="cost">₫550.500</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_total_cost">
+                                            <div class="main_total_cost">
+                                                <span class="main_total_cost-tt">
+                                                    Into money :    <!--Thành tiền-->
+                                                </span>
+                                                <span class="main_total_cost-span">
+                                                    ₫1.432.500
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col10_main_footer">
+                                            <div class="col10_main_footer-1">
+                                                <span class="col10_main_footer-1-span">
+                                                    Please only press "Item received" when the order has been delivered to you and the product received without problems.                                        </span>
+                                            </div>
+                                            <div class="col10_main_footer-2">
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Has received the goods  <!--Đã nhận hàng-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Refund  <!--Hoàn tiền-->
+                                                    </btn>
+                                                </div>
+                                                <div class="col10_main_footer-2-1">
+                                                    <btn class="btn-1">
+                                                        Contact seller      <!--Liên hệ người bán-->
+                                                    </btn>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row ft2">
+                    <div class="col l-3 c-6 m-6">
+                        <div class="ft-element ft1">
+                            <div class="ft-store">
+                                <div class="store-tt">
+                                    <p class="store-tt-p">Tổng đài hỗ trợ miễn phí</p>
+                                </div>
+                            </div>
+                            <div class="store-phone">
+                                <p>Gọi tư vấn : 1800 1234 (7h30 - 22h00)</p>
+                                <p>Gọi mua hàng : 1800 1234 (7h30 - 22h00)</p>
+                                <p>Gọi khiéu nại : 1800 1234 (7h30 - 22h00)</p>
+                            </div>
+                            <div class="ft-pay">
+                                <p class="store-tt-p">Phương thức thanh toán</p>
+                                <div class="ft-pay-element">
+                                    <ul class="list-link">
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/alepay-logo.png">
+                                        </li>
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/zalopay-logo.png">
+                                        </li>
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/vnpay-logo.png">
+                                        </li>
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/onepay-logo.png">
+                                        </li>
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/moca-logo.png">
+                                        </li>
+                                        <li class="list-link-element">
+                                            <img src="https://image.cellphones.com.vn/x35/media/logo/payment/mpos-logo.png">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6 m-6">
+                        <div class="ft-element">
+                            <div class="ft-store">
+                                <div class="store-tt">
+                                    <p class="store-tt-p">Thông tin và chính sách</p>
+                                </div>
+                            </div>
+                            <div class="store-phone">
+                                <p>Mua hàng và thanh toán Online</p>
+                                <p>Mua hàng trả góp Online</p>
+                                <p>Tra thông tin đơn hàng</p>
+                                <p>Xem ưu đãi khách hàng</p>
+                                <p>Tra điểm khách hàng</p>
+                                <p>Tra cứu hoá đơn điện tử</p>
+                                <p>Trung tâm bảo hành chính hãng</p>
+                                <p>Tra điểm khách hàng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6 m-6">
+                        <div class="ft-element">
+                            <div class="ft-store">
+                                <div class="store-tt">
+                                    <p class="store-tt-p">Dịch vụ và thông tin khác</p>
+                                </div>
+                            </div>
+                            <div class="store-phone">
+                                <p>Ưu đãi thanh toán</p>
+                                <p>Mua hàng trả góp Online</p>
+                                <p>Quy chế hoạt động</p>
+                                <p>Chính sách Bảo hành/p>
+                                <p>Liên hệ hợp tác kinh doanh</p>
+                                <p>Tuyển dụng</p>
+                                <p>Dịch vụ bảo hành điện thoại</p>
+                                <p>Dịch vụ bảo hành mở rộng</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-6 m-6">
+                        <div class="ft-element">
+                            <div class="ft-store">
+                                <div class="store-tt">
+                                    <p class="store-tt-p">Kết nối với chúng tôi</p>
+                                </div>
+                            </div>
+                            <div class="ft-yt-fb">
+                                <div class="ft-logo">
+                                    <img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-youtube.png" alt="" class="ft-img">
+                                </div>
+                                <div class="ft-logo">
+                                    <img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-facebook.png" alt="" class="ft-img">
+                                </div>
+                                <div class="ft-logo">
+                                    <img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-instagram.png" alt="" class="ft-img">
+                                </div>
+                                <div class="ft-logo">
+                                    <img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-tiktok.png" alt="" class="ft-img">
+                                </div>
+                                <div class="ft-logo">
+                                    <img src="https://image.cellphones.com.vn/44x/media/logo/social/cellphones-zalo.png" alt="" class="ft-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+        </footer>
+        <a href="chat.html">
+            <div id="call-phone" class="call-phone">
+                <div class="call-phone__circle"></div>
+                <div class="call-phone__circle-fill"></div>
+                <div class="call-phone__circle-img">
+                  <i class="fa fa-phone icon-phone"></i>   
+                </div>
+              </div>
+        </a>
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.col10_header-title');
+        const all_content = document.querySelectorAll('.col10_pp_main');
+
+        tabs.forEach((tab, index)=>{
+            tab.addEventListener('click', (e)=> {
+                tabs.forEach(tab=>{tab.classList.remove('active')});
+                tab.classList.add('active'); 
+
+                var line =document.querySelector('.line');
+                line.style.width = e.target.offsetWidth + "px";
+                line.style.left = e.target.offsetLeft + "px";
+            
+                all_content.forEach(content=>{content.classList.remove('active')});
+                all_content[index].classList.add('active');
+            })           
+        })
+
+    </script>
+</body>
+</html>
