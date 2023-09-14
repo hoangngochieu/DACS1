@@ -77,8 +77,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="tracuudonhang.html" class="nav__element nav__element-tb nav__element1 hide-on-mobile-tablet hide-on-mobile>
-                        <!-- <i class="nav__icon ri-archive-line"></i>
+                    <a id="linktracuu" href="login.html" class="nav__element nav__element-tb nav__element1 hide-on-mobile-tablet hide-on-mobile>
+                         <i class="nav__icon ri-archive-line"></i>
                         <i class="nav__icon fa-sharp fa-solid fa-address-card"></i>
                         <div class="nav__location">
                             <div class="xem-gia">
@@ -89,20 +89,20 @@
                                     <img src="./assets/image/thongbao.png" alt="" class="navbar__item-on-img">
                                     <p class="navbar__item-on-text">Đăng nhập để Tra cứu đơn hàng</p>
                                 </div>
-                                <div class="navbar__item-on-bottom">
+                                <!-- <div class="navbar__item-on-bottom">
                                     <ul class="navbar_dndk">
                                         <div class="navbar_dndk-div">
-                                            <li class="navbar_dndk__dn">Đăng Nhập</li>
+                                           <li class="navbar_dndk__dn">Đăng Nhập</li>
                                         </div>
                                         <div class="navbar_dndk-div">
                                             <li class="navbar_dndk__dn">Đăng Ký</li>
                                         </div>
                                     </ul>                      
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </a>
-                    <a href="cart.html" class="nav__element nav__element1">
+                    <a id="linkgiohang" href="login.html" class="nav__element nav__element1 nav__element-tb">
                         <i class="nav__icon fa-sharp fa-solid fa-cart-shopping"></i>
                         <div class="nav__location">
 
@@ -111,6 +111,12 @@
                             </div>
                             <div class="sdt">
                                 hàng
+                            </div>
+                            <div class="navbar__item-on"> 
+                                <div class="navbar__item-on-top">
+                                    <img src="./assets/image/thongbao.png" alt="" class="navbar__item-on-img">
+                                    <p class="navbar__item-on-text">Đăng nhập để xem giỏ hàng</p>
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -144,38 +150,46 @@
                             </li>
                             <div class="line2"></div>
                         </ul>
+                      
                         <div class="content-box2">
+                            <form action="login.php" method="post">
                             <div class="content_box-lg active">
                                 <div class="content2-lg ">
                                     <div class="taikhoan-lg">
-                                        <input type="text" class="text-lg" placeholder="Nhập số điện thoại">
+                                        <input name="phone" type="tel" class="text-lg" placeholder="Nhập số điện thoại" pattern="[0-9]{10}" required>
                                     </div>
                                     <div class="matkhau-lg">
-                                        <input type="password" class="text-lg" placeholder="Mật khẩu">
+                                        <input name="password" type="password" class="text-lg" placeholder="Mật khẩu" required>
                                     </div>
                                     <div class="action_bottom">
-                                        <a href="index.html">
+                                   
                                             <input class="btn-more btn-login" type="submit" value="Đăng nhập">
-                                        </a>
+                                        
                                         <a href="resetpass.html" class="style-forget">Quên mật khẩu?</a>
                                     </div>
                                 </div>
                             </div>
+                            </form>
+                            <form action="">
                             <div class="content_box-lg">
                                 <div class="content2-lg">
                                     <div class="taikhoan-lg">
-                                        <input type="text" class="text-lg" placeholder="Nhập số điện thoại">
+                                        <input type="text" class="text-lg" placeholder="Nhập số điện thoại" pattern="[0-9]{10}" required>
                                     </div>
+                                 
                                     <div class="action_bottom">
                                         <input class="btn-more btn-login" type="submit" value="Gửi mã xác nhận">
                                     </div>
                                 </div>
                             </div>
+                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <footer class="footer">
             <div class="grid wide">
                 <div class="row ft2">
@@ -248,7 +262,7 @@
                                 <p>Ưu đãi thanh toán</p>
                                 <p>Mua hàng trả góp Online</p>
                                 <p>Quy chế hoạt động</p>
-                                <p>Chính sách Bảo hành/p>
+                                <p>Chính sách Bảo hành</p>
                                 <p>Liên hệ hợp tác kinh doanh</p>
                                 <p>Tuyển dụng</p>
                                 <p>Dịch vụ bảo hành điện thoại</p>
@@ -315,6 +329,57 @@
             all_content[index].classList.add('active');
             })           
         })
+
+
+
+        // // Lắng nghe sự kiện khi người dùng nhấn nút "Đăng nhập"
+        // const loginButton = document.querySelector('.btn-login');
+        // loginButton.addEventListener('click', function(event) {
+        // event.preventDefault(); // Ngăn chặn hành vi mặc định khi nhấn nút submit
+
+        // // Lấy giá trị từ trường nhập tên và mật khẩu
+        // const usernameInput = document.querySelector('.taikhoan-lg input');
+        // const passwordInput = document.querySelector('.matkhau-lg input');
+        // const username = usernameInput.value;
+        // const password = passwordInput.value;
+
+        // // Kiểm tra giá trị đăng nhập
+        // if (username === '1123456789' && password === '1111') {
+        //     // Chuyển hướng đến trang chính
+        //     window.location.href = 'index.html';
+        // } else {
+        //     // In ra thông báo lỗi
+        //     alert('Tài khoản hoặc mật khẩu sai');
+        // }
+        // });
+            
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbarItemOnElements = document.querySelectorAll('.navbar__item-on');
+    const loginSuccessful = sessionStorage.getItem('loginSuccessful');
+    const linktracuu = document.getElementById('linktracuu');
+    const linkgiohang = document.getElementById('linkgiohang');
+    const dangxuatDiv = document.getElementById('dangxuat');
+    if (loginSuccessful === 'true') {
+        navbarItemOnElements.forEach(element => {
+            element.classList.add('navbar__item-on-hidden');
+        });
+            linktracuu.href = 'tracuudonhang.html';
+            linkgiohang.href = 'cart.html';
+            dangxuatDiv.textContent = 'Đăng xuất';
+
+            dangxuatDiv.addEventListener('click', function() {
+            sessionStorage.removeItem('loginSuccessful');  
+        });
+       
+    }
+
+
+    // Xóa trạng thái loginSuccessful sau khi sử dụng trong trang cart.html
+    // sessionStorage.removeItem('loginSuccessful');
+});
+
+
     </script>
-</body>
+     <script src="assets/js/dangNhap.js"></script>
+</body> 
 </html>

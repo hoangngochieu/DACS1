@@ -77,8 +77,8 @@
                             </div>
                         </div>
                     </a>
-                    <a href="tracuudonhang.html" class="nav__element nav__element-tb nav__element1 hide-on-mobile-tablet hide-on-mobile>
-                        <!-- <i class="nav__icon ri-archive-line"></i>
+                    <a id="linktracuu" href="login.html" class="nav__element nav__element-tb nav__element1 hide-on-mobile-tablet hide-on-mobile>
+                         <i class="nav__icon ri-archive-line"></i>
                         <i class="nav__icon fa-sharp fa-solid fa-address-card"></i>
                         <div class="nav__location">
                             <div class="xem-gia">
@@ -89,20 +89,20 @@
                                     <img src="./assets/image/thongbao.png" alt="" class="navbar__item-on-img">
                                     <p class="navbar__item-on-text">Đăng nhập để Tra cứu đơn hàng</p>
                                 </div>
-                                <div class="navbar__item-on-bottom">
+                                <!-- <div class="navbar__item-on-bottom">
                                     <ul class="navbar_dndk">
                                         <div class="navbar_dndk-div">
-                                            <li class="navbar_dndk__dn">Đăng Nhập</li>
+                                           <li class="navbar_dndk__dn">Đăng Nhập</li>
                                         </div>
                                         <div class="navbar_dndk-div">
                                             <li class="navbar_dndk__dn">Đăng Ký</li>
                                         </div>
                                     </ul>                      
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </a>
-                    <a href="cart.html" class="nav__element nav__element1">
+                    <a id="linkgiohang" href="login.html" class="nav__element nav__element1 nav__element-tb">
                         <i class="nav__icon fa-sharp fa-solid fa-cart-shopping"></i>
                         <div class="nav__location">
 
@@ -112,13 +112,19 @@
                             <div class="sdt">
                                 hàng
                             </div>
+                            <div class="navbar__item-on"> 
+                                <div class="navbar__item-on-top">
+                                    <img src="./assets/image/thongbao.png" alt="" class="navbar__item-on-img">
+                                    <p class="navbar__item-on-text">Đăng nhập để xem giỏ hàng</p>
+                                </div>
+                            </div>
                         </div>
                     </a>
 
                     <a href="login.html" class="nav__element nav__element2 hide-on-mobile">
                         <i class="nav__icon2 fa-regular fa-user"></i>
                         <div class="nav__location">
-                            <div class="xem-gia">
+                            <div id="dangxuat" class="xem-gia">
                                 Tài khoản
                             </div>
                         </div>
@@ -138,12 +144,12 @@
                             <form action="" class="box-search-in4">
                                 <div class="field">
                                     <div class="box-search-item">
-                                        <input id="inputPhone" name="phone" type="text" maxlength="10"value="" class="box-search-item" placeholder="Số điện thoại (bắt buộc)">
+                                        <input id="inputPhone" name="phone" type="" maxlength="10"value="" class="box-search-item" placeholder="Số điện thoại (bắt buộc)" required pattern="[0-9]{10}">
                                     </div>
                                 </div>
                                 <div class="field field2">
                                     <div class="box-search-item">
-                                        <input id="inputPhone" name="phone" type="text" maxlength="10"value="" class="box-search-item" placeholder="Mã đơn hàng (bắt buộc)">
+                                        <input id="" name="phone" type="text" maxlength="10"value="" class="box-search-item" placeholder="Mã đơn hàng (bắt buộc)" required>
                                     </div>
                                 </div>
                                 <button type="submit" class="button__check-order">Kiểm tra</button>
@@ -260,7 +266,7 @@
                                 <p>Ưu đãi thanh toán</p>
                                 <p>Mua hàng trả góp Online</p>
                                 <p>Quy chế hoạt động</p>
-                                <p>Chính sách Bảo hành/p>
+                                <p>Chính sách Bảo hành</p>
                                 <p>Liên hệ hợp tác kinh doanh</p>
                                 <p>Tuyển dụng</p>
                                 <p>Dịch vụ bảo hành điện thoại</p>
@@ -327,6 +333,32 @@
             all_content[index].classList.add('active');
             })           
         })
+
+
+ 
+    document.addEventListener('DOMContentLoaded', function() {
+    const navbarItemOnElements = document.querySelectorAll('.navbar__item-on');
+    const loginSuccessful = sessionStorage.getItem('loginSuccessful');
+    const linktracuu = document.getElementById('linktracuu');
+    const linkgiohang = document.getElementById('linkgiohang');
+    const dangxuatDiv = document.getElementById('dangxuat');
+ 
+    if (loginSuccessful === 'true') {
+        navbarItemOnElements.forEach(element => {
+            element.classList.add('navbar__item-on-hidden');
+        });
+            linktracuu.href = 'tracuudonhang.html';
+            linkgiohang.href = 'cart.html';
+            dangxuatDiv.textContent = 'Đăng xuất';
+
+            dangxuatDiv.addEventListener('click', function() {
+            sessionStorage.removeItem('loginSuccessful');  
+        });
+       
+    }
+});
+
     </script>
+
 </body>
 </html>
