@@ -1,0 +1,93 @@
+.container222 {
+    width: 100%;
+    position: relative;
+  }
+  
+  /*call phone*/
+  .call-phone {
+    position: fixed;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+    bottom: 0;
+    right: 5px;
+    z-index: 2;
+  }
+  .call-phone__circle {
+    width: 160px;
+    height: 160px;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid rgba(82, 125, 168, 0.689);
+    animation: call-phone__circle-anim 1.2s infinite ease-in-out;
+    transition: all 0.5s;
+    vertical-align: baseline;
+  }
+  
+  @keyframes call-phone__circle-anim{
+    0%{transform:rotate(0deg) scale(0.5) skew(1deg);
+      opacity:.1  }
+    30%{transform:rotate(0deg) scale(0.7) skew(1deg);
+      opacity:.5  }
+    100%{transform:rotate(0deg) scale(1) skew(1deg);
+      opacity:.1  }
+  }
+  .call-phone__circle-fill {
+    background-color: rgba(82,125,168,1);
+    /* opacity: 0.75; */
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    border-radius: 100%;
+    /* opacity: 0.1; */
+    animation: call-phone__circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all 0.5s;
+  }
+  
+  @keyframes call-phone__circle-fill-anim{
+    0%{transform:rotate(0deg) scale(0.7) skew(1deg);
+      opacity:.2  }
+    50%{transform:rotate(0deg) scale(1) skew(1deg);
+      opacity:.2  }
+    100%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2  }
+  }
+  .call-phone__circle-img {
+    position: relative;
+    background-color: rgba(82, 125, 168, 0.644);
+    width: 70px;
+    height: 70px;
+    top: 65px;
+    left: 65px;
+    position: absolute;
+    border: 5px solid #527da8;
+    border-radius: 50%;
+    border-radius: 100%;
+    opacity: 0.7;
+    animation: call-phone__circle-img-anim 1s infinite ease-in-out;
+  }
+  @keyframes call-phone__circle-img-anim{
+    0%{transform:rotate(0deg) scale(1) skew(1deg)  }
+    10%{transform:rotate(-25deg) scale(1) skew(1deg)  }
+    20%{transform:rotate(25deg) scale(1) skew(1deg)  }
+    30%{transform:rotate(-25deg) scale(1) skew(1deg)  }
+    40%{transform:rotate(25deg) scale(1) skew(1deg)  }
+    100%,50%{transform:rotate(0deg) scale(1) skew(1deg)  }
+  }
+  
+  .icon-phone {
+    position: absolute;
+    z-index: 30;
+    font-size: 36px;
+    color: #264b6f;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 0 5px 0;
+  }
+

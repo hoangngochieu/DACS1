@@ -1,0 +1,497 @@
+/* Mobile & tablet */ 
+@media (max-width : 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        height: 80px;
+    }
+    .row2 {
+        margin-top: 80px;
+    }
+
+    .xgt-mobile-tablet {
+        width: 122px;
+    }
+    .nav__element {
+        font-size: 1.2rem;
+    }
+    .dia-diem {
+        font-size: 1.2rem;
+    }
+    .wide {
+        max-width: 1023px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .wide {
+        max-width: 1239px;
+    }
+    .nav__element {
+        font-size: 1.2rem;
+        height: 72px;
+      }
+    .dia-diem {
+        font-size: 1.2rem;
+      }
+    .container {
+        flex: 1;
+        margin-left: 50px;
+    }
+    .tab_btn{
+        font-size: .9rem;
+    }
+    .line {
+        height: 3px;
+        width: 124px;
+        left: 0px;
+    }
+    .main-dt__header-title {
+        display: block;
+    }
+}
+   
+    
+    /* Tablet */
+    @media (min-width: 740px) and (max-width: 1023px) {
+        .hide-on-tablet {
+            display: none;
+        }
+        .wide {
+            max-width: 1023px;
+        }
+        .hide-on-tablet {
+            display: none;
+        }
+
+        .container {
+            margin-left: 100px;
+            /* flex: 1; */
+        }
+        .tab_btn{
+            font-size: .9rem;
+        }
+        .line {
+            height: 3px;
+            width: 104px;
+            left: 0px;
+        }
+        .horizontal-banner-img {
+            height: 64px;
+        }
+        .home-produce-item__sale-off { 
+            left: 157px;
+        }
+        .main-dt__header-title {
+            display: block;
+        }
+
+        .home-produce-item__sale-off3 {
+            left: 164px;
+        }
+        .dtnb-h2 {
+            font-size: 1.4rem;
+        }
+    
+        .list_dt_main_link {
+            font-size: 1.2rem ;
+        }
+    
+        .box-tab-item {
+            font-size: 1.4rem;
+        }
+    
+        .title {
+            font-size: 1.4rem;
+        }
+
+        .countdown {
+            font-size: 1.4rem;
+            margin-top: 27px;
+        }
+    
+        .brand-banner-span {
+            font-size: 1.4rem;
+        }
+        .tincn-button-link {
+            margin-bottom: 5px;
+        }
+    
+        .list_dt_main_link2 {
+            margin-right: 4px;
+        }
+        .pk-a {
+            margin-right: 4px;
+        }
+
+        /* CARRT */
+
+        .category-span {
+            font-size: 1.2rem;
+        }
+        .col10_header-title {
+            font-size: 1rem;
+        }
+
+        .column-2-top {
+            padding-left: 33px;
+        }
+        .top-ava{
+            height: 30px;
+            width: 30px;
+        }
+
+        .main-head-right-span {
+            font-size: 1.1rem;
+        }
+
+        .head-icon {
+            font-size: 1.1rem;
+        }
+        .head-left-1-span {
+            font-size: 1.1rem;
+        }
+
+        .main-right-element-name-span {
+            font-size: 1.2rem;
+        }
+        .main-right-element-type-sapn {
+            font-size: 1.2rem;
+        }
+        .cost {
+            font-size: 1.2rem;
+        }
+        .main_total_cost-tt {
+            font-size: 1.2rem;
+        }
+        .col10_main_footer {
+            display: block;
+        }
+        .col10_main_footer-1-span {
+            font-size: 1.3rem;
+        }
+        .btn-1 {
+            font-size: 1.2rem;
+        }
+        
+   .col10_main_footer {
+    height: 120px;
+   }
+   /* MESS */
+   .header-2-text {
+    font-size: 1.6rem;
+   }
+   .header-2-text2 {
+    font-size: 1.4rem;
+   }
+   .main2-header-text {
+    font-size: 20px }
+
+    .footer-list-name-span {
+        font-size: 1.6rem;
+    }
+
+    .footer-item {
+        font-size: 1.4rem;
+    }
+    .footer-list-name2 {
+        font-size: 1.6rem;
+    }
+    .main2-header-3-picture {
+        height: 40px;
+        width: 40px;
+    }
+    .main2-header-3-picture2 {
+        height: 38px;
+        width: 38px;
+    }
+    .name-span {
+        font-size: 1.8rem;
+    }
+    .in4-border {
+        font-size: 1.8rem;
+    }
+    .body-chat-date {
+        padding-top: 0;
+    }
+    .content-span {
+        font-size: 1.4rem;
+    }
+
+    /* TRa cứu đơn hàng */
+    .box-search-title {
+        font-size: 1.4rem;
+    }
+    .box-search-item {
+        font-size: 12px;
+    }
+    .box-search-in4 {
+        position: relative;
+        z-index: 100;
+        /* border: none; */
+    }
+    .bg-order-check {
+        top: -353px;
+        left: -543px;
+    }
+    .box-search-item {
+        border: none;
+    }
+
+    .button__check-order {
+        font-size: 12px;
+    }
+
+    .button__link-to-auth {
+        font-size: 12px;
+        margin: 0;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .box-search-title {
+font-size: 1.2rem;
+    }
+    .wide {
+        max-width: 739px;
+    }
+    .nav__element {
+        height: 50px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .xem-gia {
+        font-size: 1rem;
+    }
+    .dia-diem {
+        font-size: 1rem;
+    }
+    .sdt {
+        font-size: 1rem;
+    }
+    .xgt-mobile-tablet {
+        width: 120px;
+    }
+
+    .HHphone-mobile {
+        width: 70px;
+   
+    }
+    .HHphone-mobile-tt {
+        font-size: 1.5rem;
+    }
+
+    .tab_btn{
+        font-size: .9rem;
+    }
+    .line {
+        height: 3px;
+        width: 114px;
+        left: 0px;
+    }
+    .horizontal-banner-img {
+        /* height: 64px; */
+    }
+    .home-produce-item__sale-off2 { 
+        left: 462px;
+    } 
+    .main-dt__header-title {
+        /* display: block; */
+    }
+    .home-produce-item__img-mobile {
+        /* width: 200px; */
+    }
+
+    .dtnb-h2 {
+        font-size: 1.2rem;
+    }
+
+    .list_dt_main_link {
+        font-size: 1rem ;
+    }
+
+    .box-tab-item {
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .countdown {
+        font-size: 1.2rem;
+        margin-top: 27px;
+    }
+
+    .brand-banner-span {
+        font-size: 1.2rem;
+    }
+    .tincn-button-link {
+        margin-bottom: 5px;
+    }
+
+    .list_dt_main_link2 {
+        margin-right: 4px;
+    }
+    .pk-a {
+        margin-right: 4px;
+    }
+
+
+    /* CART */
+    .col10_header-title {
+        font-size: 1rem;
+    }
+
+   .main-head-right-span {
+    font-size: 1rem;
+   }
+   .head-icon {
+    font-size: 1rem;
+   }
+
+   .head-left-1-span {
+    font-size: 1rem;
+   }
+   .main-right-element-name-span {
+    font-size: 1.2rem;
+   }
+
+   .main-right-element-type-sapn {
+    font-size: 1.2rem;
+   }
+
+   .cost {
+    font-size: 1.2rem;
+   }
+
+   .main_total_cost-tt {
+    font-size: 1.4rem;
+   } 
+
+   .main_total_cost-span {
+    font-size: 1.6rem;
+   }
+
+   .margin-header {
+    margin-top: 30px;
+   }
+   .col10_main_footer-1-span {
+    font-size: 1.2rem;
+   }
+
+   .btn-1 {
+    font-size: 1rem;
+    /* height: 114px; */
+   }
+
+   .col10_main_footer {
+    display: block;
+   }
+
+   .col10_main_footer {
+    height: 120px;
+   }
+
+
+   /* MESS */
+   .top-ava {
+    min-width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+    margin-left: 10px;
+   }
+   .category {
+    margin-top: 80px;
+   }
+
+   .body-chat-date {
+    padding-top: 0;
+   }
+   /* .body-chat-mess {
+    margin-top: -10px;
+   } */
+   /* .return4 {
+    display: none;
+   } */
+   .header-2-text2, .footer-item-mess{
+    display: none;
+}
+
+.footer-item2 {
+    display: none;
+}
+.main2-header-3-picture {
+    margin: 10px 4px;
+}
+    .main2-header-3-picture{
+        max-height: 40px;
+        max-width: 33px;
+    }
+
+    .footer-list-name-span {
+    font-size: 1.2rem;
+    }
+
+    .footer-list-name2 {
+        font-size: 1.4rem;
+        color: #558dd7f8;
+    }
+    .header-2-text {
+        font-size: 1.4rem;
+    }
+    .main2-header-text {
+        font-size: 22px;
+    }
+    .icon-main-2 {
+        font-size: 14px;
+    }
+    .name-span {
+        font-size: 1.6rem;
+    }
+    .nickname-span {
+        font-size: 1.2rem;
+    }
+    .in4-border {
+        font-size: 1.4rem;
+    }
+    .date-time {
+        font-size: 1.2rem;
+    }
+    .content-span {
+        font-size: 1.1rem;
+    }
+
+    /* TRA CUU DON HANG */
+
+    .bg-order-check {
+        left: -563px;
+        top: -308px;
+        transform: rotate(50deg);
+    }
+
+    .box-search-in4{
+        padding: 0;
+        position: relative;
+        z-index: 100;
+    }
+    .box-search-item {
+        border: none;
+    }
+    .button__check {
+        font-size: 12px;
+    }
+    .button__link-to-auth {
+        min-width: 260px;
+        font-size: 12px;
+    }
+}

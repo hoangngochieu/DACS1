@@ -1,0 +1,113 @@
+
+.main {
+    margin-top: 150px;
+}
+.container-lg {
+    position: relative;
+}
+.customer-login {
+    padding: 20px 15px 30px;
+    position: relative;
+    background: #fff;
+    border: none;
+    border-radius: 2px;
+    margin: 50px auto;
+    width: 460px;
+}
+
+.tab_box-lg {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 0;
+    list-style-type: none;
+}
+.tab_btn-lg {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab_btn-span {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+    border-bottom: 3px solid transparent;
+}
+
+.text-lg {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    padding-left: 5px;
+
+    padding: 4px 9px;
+    /* height: 29px; */
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 0;
+    /* line-height: 19px; */
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    /* width: 100%; */
+    margin-bottom: 20px;
+}
+.action_bottom {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn-login {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    /* -webkit-transition: all 0.5s ease; */
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 34px;
+} 
+
+.style-forget {
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+    color: #6d6d6d;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.content-box2 .content_box-lg {
+    display: none;
+    animation: moving .5s ease;
+}
+
+.content-box2 .content_box-lg.active {
+    display: block;
+}
+
+.line2 {
+    position: absolute;
+    top: 60px;
+    /* width: 215px; */
+    /* left: 15px; */
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+a {
+    cursor: pointer;
+}
